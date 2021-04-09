@@ -14,6 +14,7 @@ function Header()
       <Link to="./updateproduct">Update Product</Link>
       <Link to="./testaxios">TestAxios</Link>
       <Link to="./admin">Admin Layout</Link>
+      <Link to="./sendcv">Send Documentary</Link>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />

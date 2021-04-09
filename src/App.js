@@ -7,7 +7,8 @@ import AddProduct from './Components/AddProduct';
 import UpdateProduct from './Components/UpdateProduct';
 import TestAxios from "./Components/TestAxios";
 import Admin from "./Components/Admin";
-
+import SendCV from "./Components/SendCongVan";
+import Body from "./Components/Body";
 function App() {
   return (
     <div className="App">
@@ -31,10 +32,11 @@ function App() {
       <Route path="/admin">
         <Admin />
       </Route>
+      <Route path="/sendcv">
+        <SendCV />
+      </Route>
       </BrowserRouter>
-      <BrowserRouter>
-
-      </BrowserRouter>
+      <Body />
     </div>
   );
 }
